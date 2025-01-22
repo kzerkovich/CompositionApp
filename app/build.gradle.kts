@@ -5,7 +5,7 @@ plugins {
 
 android {
 	namespace = "com.kzerk.compositionapp"
-	compileSdk = 34
+	compileSdk = 35
 
 	defaultConfig {
 		applicationId = "com.kzerk.compositionapp"
@@ -32,6 +32,12 @@ android {
 	}
 	kotlinOptions {
 		jvmTarget = "11"
+	}
+
+	buildFeatures {
+		viewBinding {
+			enable = true
+		}
 	}
 }
 
