@@ -6,7 +6,7 @@ import com.kzerk.compositionapp.domain.entity.Question
 
 interface GameRepository {
 	fun generateQuestion(
-		maxSunValue: Int,
+		maxSumValue: Int,
 		countOfOptions: Int
 	): Question
 
