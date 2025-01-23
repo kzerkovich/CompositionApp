@@ -19,8 +19,6 @@ dependencyResolutionManagement {
 	}
 }
 
-
-
 rootProject.name = "CompositionApp"
 include(":app")
  
